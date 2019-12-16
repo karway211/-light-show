@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 58, 5);
+}
+#root {
+    width: 500px;
+    background-color: #ff0000;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.root--bth {
+    width: 100px;
+    height: 50px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    outline: 1px solid yellow;
+}
