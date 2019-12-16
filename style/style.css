@@ -31,8 +31,8 @@ body {
 }
 
 #root {
-  width: 500px;
-  background-color: #ff0000;
+  width: 1000px;
+  background-color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
