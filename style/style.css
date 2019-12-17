@@ -31,7 +31,7 @@ body {
 }
 
 #root {
-  width: 1000px;
+  width: 1120px;
   background-color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,8 +47,10 @@ body {
 }
 
 .square {
-  width: 100px;
-  height: 100px;
-  outline: 1px solid yellow;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  border: 1px solid yellow;
 }
 /*# sourceMappingURL=style.css.map */
