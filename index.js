@@ -16,7 +16,6 @@ const arrayRandElement = (arr) => {
   const rand = Math.floor(Math.random() * arr.length);
   return arr[rand];
 }
-50
 for (let i = 0; i < 144; i++) {
     let square = document.createElement('div');
     square.classList.add('square');
@@ -61,6 +60,18 @@ function loop(){
     const percent = arr[i] / Math.max.apply(null, arr);
     // console.log(arr[i]);
     allSquare[i].style.filter = `brightness(${percent})`;
+    // if(arr[i] < 30) allSquare[i].style.background = arrayRandElement(randomColor);
+    // if(arr[i] < 60) allSquare[i].style.background = arrayRandElement(randomColor);
+    // if(arr[i] < 90) allSquare[i].style.background = arrayRandElement(randomColor);
+    // if(arr[i] < 120) allSquare[i].style.background = arrayRandElement(randomColor);
+    // if(arr[i] < 150) allSquare[i].style.background = arrayRandElement(randomColor);
+    // if(arr[i] < 180) allSquare[i].style.background = arrayRandElement(randomColor);
+    // if(arr[i] < 210) allSquare[i].style.background = arrayRandElement(randomColor);
+    if(arr[i] === 255) {
+      allSquare.forEach((el) => {
+      el.style.background = arrayRandElement(randomColor);
+    });
+    } ;
   }
 }
 
